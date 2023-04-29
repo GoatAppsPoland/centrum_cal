@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "node server.js",
     "watch-tailwind": "npx tailwindcss -i source.css -o output.css -w --minify",
     "build-tailwind": "npx tailwindcss -i source.css -o output.css --minify"
   },
