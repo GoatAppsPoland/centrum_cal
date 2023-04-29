@@ -8,5 +8,19 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.3.2"
-  }
+  },
+  "name": "centrum_cal",
+  "description": "## Install TailwindCSS `npm install -D tailwindcss`   `npx tailwindcss init` ## Start the Tailwind CLI build process `npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch`",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzysztofkeczkowski/centrum_cal.git"
+  },
+  "author": "Krzysztof Keczkowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krzysztofkeczkowski/centrum_cal/issues"
+  },
+  "homepage": "https://github.com/krzysztofkeczkowski/centrum_cal#readme"
 }
