@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "npm run build:css",
     "build": "postcss css/tailwind.css -o public/build/tailwind.css"
   },
   "dependencies": {
