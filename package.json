@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "npm run build:css",
-    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+    "watch-tailwind": "npx tailwindcss -i source.css -o output.css -w --minify",
+    "build-tailwind": "npx tailwindcss -i source.css -o output.css --minify"
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
